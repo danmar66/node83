@@ -1,0 +1,27 @@
+{
+  "name": "01_create-project",
+  "version": "1.0.0",
+  "description": "First project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "node server",
+    "prod": "node server"
+  },
+  "keywords": [
+    "node",
+    "tets"
+  ],
+  "author": "Daniel",
+  "license": "MIT",
+  "engines": {
+    "node": "18",
+    "npm": "9"
+  },
+  "dependencies": {
+    "cors": "~2.8.5"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  }
+}
